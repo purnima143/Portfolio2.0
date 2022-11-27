@@ -6,7 +6,7 @@
   font-family: "Red Hat Display", sans-serif;
 }
 body{
-  background: url(/assets/mainpg.png);
+  background: url(./assets/mainpg.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -124,7 +124,7 @@ transform: scale(55%);
   border: none;
 }
 .loadmore::before {
-  content: url(/assets/icons8-down-arrow-ios-16-32.png);
+  content: url(./assets/icons8-down-arrow-ios-16-32.png);
   width: 64px;
   height: 64px;
   padding: 10px;
