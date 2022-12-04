@@ -5,14 +5,44 @@
   outline: 0;
   font-family: "Red Hat Display", sans-serif;
 }
-body{
-  background: url(./assets/mainpg.png);
+
+body {
+  background: url(./assets/newbgs.png);
   background-size: 100%;
   background-repeat: no-repeat;
+  overflow-x: hidden!important;
 }
 p {
   font-size: 1.3rem;
   font-family: "Red Hat Display", sans-serif;
+}
+#about, #project ,#uibanner{
+  margin: 5% 0%;
+}
+
+/** SCROLLL**/
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: rgb(207, 203, 203);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: grey;
+  opacity: 0.6;
 }
 .stroke {
   -webkit-text-stroke: 1px black;
@@ -23,21 +53,21 @@ p {
   --white: #ffffff;
 }
 
-.blur1{
+.blur1 {
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
   z-index: -2;
 }
-.blur2{
+.blur2 {
   position: absolute;
-  top:0;
+  top: 0;
   right: 0;
   z-index: -2;
 }
-.blur3{
+.blur3 {
   position: absolute;
-  bottom:0;
+  bottom: 0;
   left: 0;
   z-index: -2;
 }
@@ -49,7 +79,20 @@ p {
 .maintext {
   font-size: calc(3.375rem + 1.5vw);
 }
+.nav-item .nav-link {
+  color: black !important;
+  font-weight: 400;
+  font-size: 1.3em;
+  margin: 0px 10px;
+  padding: 10px;
+}
 
+.nav-item .nav-link:hover {
+  color: rgb(0, 0, 0) !important;
+  font-weight: 500;
+  text-decoration: underline;
+  transition: all 0.5s ease-in-out;
+}
 .socialmedia {
   justify-content: space-around;
   display: flex;
@@ -66,6 +109,16 @@ p {
   font-size: 25px;
   color: black;
 }
+.socialmedia a:hover {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 10px 15px;
+  background-color: rgb(255, 255, 255);
+  mix-blend-mode: difference;
+  margin: 5px;
+  transition: all 0.5s ease-in-out;
+
+  height: fit-content;
+}
 .contactbox {
   padding: 10px;
 }
@@ -78,16 +131,16 @@ p {
 }
 .subhead {
   font-size: 4.6em;
+  width: 60%;
 }
 .line1 {
   height: 2px;
-  width: 100%;
-  background-color: #ebebeb;
+  background-color: #f6f6f6;
 }
 .imgpro {
-  width: 600px;
+  max-width: 550px;
   border-radius: 20px;
-  animation: zoom 5s ;
+  animation: zoom 5s;
   transition: all 5ms ease-in-out;
 }
 /* @keyframes zoom {
@@ -227,4 +280,108 @@ footer {
   color: white;
   background-color: black;
   transition: all 0.5s ease-in-out;
+}
+.comlogo {
+  width: 200px;
+}
+.domain {
+  margin-bottom: 40px;
+  padding: 0%;
+}
+.fa-envelope {
+  font-size: 20px;
+  color: black;
+  margin: 0px 10px;
+}
+.email {
+  color: black;
+}
+.email:hover {
+  font-weight: 500;
+  color: black;
+  transition: all 0.5s ease-in-out;
+}
+.emailtxt {
+  font-size: 1.3em;
+  color: black !important;
+}
+@media only screen and (max-width: 500px) {
+  .imgpro {
+    width: 220px;
+  }
+  .subhead {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+  .maintext {
+    font-size: calc(1.575rem + 1.5vw);
+  }
+  .emailtxt {
+    font-size: 0.8em !important;
+  }
+  .contactbox {
+    padding: 0px;
+  }
+  .loadmore::before {
+    padding: 13px;
+    top: 58px;
+    right: -52%;
+    margin-bottom: 43px;
+    margin-top: 20px;
+  }
+
+  .loadmore {
+    padding: 2px;
+  }
+  .email {
+    font-size: 0.87em;
+  }
+}
+
+@media (min-width: 576px) {
+  .col-sm-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .contactmail {
+    font-size: 15px;
+  }
+}
+
+.colui {
+  border: 1px solid rgb(145, 144, 144);
+  border-radius: 10px;
+  padding: 10px;
+}
+.boxui {
+  height: 500px;
+}
+.myuicard {
+  border: 1px solid rgb(136, 134, 134);
+  border-radius: 10px;
+  color: black;
+}
+.boxui .banner {
+  transform: rotate(-15deg);
+  padding-left: 100px;
+  top: 17px;
+  right: -60px;
+  position: relative;
+}
+#uibanner {
+  margin: 10% 2%;
+}
+#uibanner .probtn {
+  color: #000000;
+  border-color: rgb(0, 0, 0);
+}
+#uibanner .probtn:hover {
+  color: white;
+}
+.uidesign {
+  width: 170px;
+  border-radius: 10px;
+}
+#uibanner .col-lg-4 {
+  padding: 40px;
 }

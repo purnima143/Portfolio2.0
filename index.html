@@ -24,15 +24,17 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <title>Purnima Sharma</title>
   </head>
   <body>
     <!-- NAVBAR SECTION -->
     <section id="header">
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light" data-aos="fade-up">
           <a class="navbar-brand" href="#"
-            ><img src="/assets/logo.png" alt=""
+            ><img src="/assets/logo.PNG" alt=""
           /></a>
           <button
             class="navbar-toggler"
@@ -48,19 +50,22 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#"
-                  >Home <span class="sr-only"></span
-                ></a>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#project">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a
+                  class="nav-link"
+                  href="Purnima_Sharma_Resume.pdf"
+                  download="Purnima Sharma"
+                  >Resume</a
+                >
               </li>
             </ul>
           </div>
@@ -71,7 +76,7 @@
     <!-- HERO SECTION -->
     <section id="hero">
       <div class="container">
-        <div class="content">
+        <div class="content" data-aos="zoom-in" data-target="500">
           <p class="intro">Hi👋! I’m Purnima Sharma</p>
           <h1 class="maintext">
             Contribute to company by using my
@@ -82,15 +87,29 @@
           <div class="row mt-5 contactbox">
             <div class="col-lg-9 col-md-8 col-sm-12">
               <p class="smalltext">CONTACT ME FOR MORE</p>
-              <p>purnimasharma747359@gmail.com</p>
+              <p>
+                <a
+                  href="mailto:purnimasharma@gmail.com"
+                  target="_blank"
+                  class="emailtxt"
+                  >purnimasharma747359@gmail.com</a
+                >
+              </p>
             </div>
             <div class="col-lg-3 col-md-4 col-sm-12 socialmedia">
-              <a href="" class="linked"
+              <a
+                href="https://www.linkedin.com/in/purnima-sharma-212106158/"
+                class="linked"
                 ><i class="fa-brands fa-linkedin-in"></i
               ></a>
-              <a href="" class="github"><i class="fa-brands fa-github"></i></a>
-              <a href="" class="twitter"
+              <a href="https://github.com/purnima143" class="github"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="https://twitter.com/purnima_sde" class="twitter"
                 ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="https://www.behance.net/purnimasharma1" class="behance"
+                ><i class="fa-brands fa-behance"></i
               ></a>
             </div>
           </div>
@@ -101,72 +120,21 @@
     </section>
 
     <!-- PROJECT SECTION -->
-    <div class="container line1"></div>
 
     <section id="project">
       <div class="container">
-        <h1 class="subhead maintext w-50">
+        <h1 class="subhead maintext" data-aos="fade-up">
           Projects that I have <span class="stroke">worked</span> on
         </h1>
-        <div class="row mt-5">
-          <div class="col-lg-6 col-sm-12">
-            <img src="./assets/1.png" alt="project" class="imgpro" />
-          </div>
-          <div class="col-lg-6 col-sm-12 p-5">
-            <div class="domain smalltext">Augmented Reality</div>
-            <div class="pro-title pt-2">Champion</div>
-            <div class="pro-tech pt-2">Future of Car Companies</div>
-            <div class="pro-desc pt-3">
-              AR-CASCA Car Showroom would provide a highly realistic
-              visualization of the luxury vehicle, bringing the automotive
-              showroom on a platterto the customer.
-            </div>
-            <div class="pro-links mt-5">
-              <a href="" class="probtn"
-                ><i class="fa-brands fa-github pr-2"></i>Github</a
-              >
-            </div>
-            <div class="pro-skills mt-5">
-              <img src="./assets/html-5.png" alt="" class="skillimg" />
-              <img src="./assets/css-3.png" alt="" class="skillimg" />
-              <img src="./assets/js (1).png" alt="" class="skillimg" />
-            </div>
-          </div>
-        </div>
-        <div class="row mt-5">
-          <div class="col-lg-6 col-sm-12">
-            <img src="./assets/2.png" alt="project" class="imgpro" />
-          </div>
-          <div class="col-lg-6 col-sm-12 p-5">
-            <div class="domain smalltext">Web Development</div>
-            <div class="pro-title pt-2">Lofi</div>
-            <div class="pro-tech pt-2">
-              Development of an application for a national bank
-            </div>
-            <div class="pro-desc pt-3">
-              Morbi et massa fames ac scelerisque sit commodo dignissim faucibus
-              vel quisque proin lectus. Morbi et massa fames ac scelerisque sit
-              commodo dignissim.
-            </div>
-            <div class="pro-links mt-5">
-              <a href="" class="probtn"
-                ><i class="fa-brands fa-github pr-2"></i>Github</a
-              >
-            </div>
-            <div class="pro-skills mt-5">
-              <img src="./assets/html-5.png" alt="" class="skillimg" />
-              <img src="./assets/css-3.png" alt="" class="skillimg" />
-              <img src="./assets/js (1).png" alt="" class="skillimg" />
-            </div>
-          </div>
-        </div>
-        <div class="row mt-5">
-          <div class="col-lg-6 col-sm-12">
+        <div class="row mt-5" data-aos="fade-up" data-aos-offset="400">
+          <div class="col-lg-6 col-sm-12" data-aos="zoom-in-up">
             <img src="./assets/6.png" alt="project" class="imgpro" />
           </div>
-          <div class="col-lg-6 col-sm-12 p-5">
+          <div class="col-lg-6 col-sm-12 p-lg-2 p-sm-1 pt-3">
             <div class="domain smalltext">Web Development</div>
-            <div class="pro-title pt-2">dESGEM</div>
+            <div class="pro-title pt-2">
+              <img src="/assets/des1.png" alt="" class="comlogo" />
+            </div>
             <div class="pro-tech pt-2">
               Development of an application for a designers
             </div>
@@ -176,24 +144,20 @@
               design shots.
             </div>
             <div class="pro-links mt-5">
-              <a href="" class="probtn"
-                ><i class="fa-brands fa-github pr-2"></i>Github</a
-              >
+              <a href="" class="probtn">Know More</a>
             </div>
-            <div class="pro-skills mt-5">
-              <img src="./assets/html-5.png" alt="" class="skillimg" />
-              <img src="./assets/css-3.png" alt="" class="skillimg" />
-              <img src="./assets/js (1).png" alt="" class="skillimg" />
-            </div>
+            <div class="pro-skills mt-5"></div>
           </div>
         </div>
-        <div class="row mt-5">
-          <div class="col-lg-6 col-sm-12">
+        <div class="row mt-5" data-aos="fade-up" data-aos-offset="400">
+          <div class="col-lg-6 col-sm-12" data-aos="zoom-in-up">
             <img src="./assets/4.png" alt="project" class="imgpro" />
           </div>
-          <div class="col-lg-6 col-sm-12 p-5">
+          <div class="col-lg-6 col-sm-12 p-lg-2 p-sm-1 pt-3">
             <div class="domain smalltext">Web Development</div>
-            <div class="pro-title pt-2">Champion</div>
+            <div class="pro-title pt-2">
+              <img src="/assets/inco1.png" alt="" class="comlogo" />
+            </div>
             <div class="pro-tech pt-2">
               Static webpage for a College community
             </div>
@@ -202,21 +166,216 @@
               CSS and Bootstrap and hosted it in Github.
             </div>
             <div class="pro-links mt-5">
-              <a href="" class="probtn"
-                ><i class="fa-brands fa-github pr-2"></i>Github</a
+              <a href="" class="probtn">Know More</a>
+            </div>
+            <div class="pro-skills mt-5"></div>
+          </div>
+        </div>
+
+        <!-- <img src="./assets/bg1.png" alt="" /> -->
+        <div class="row mt-5" data-aos="fade-up" data-aos-offset="400">
+          <div class="col-lg-6 col-sm-12" data-aos="zoom-in-up">
+            <img src="./assets/car.png" alt="project" class="imgpro" />
+          </div>
+          <div class="col-lg-6 col-sm-12 p-lg-2 p-sm-1 pt-3">
+            <div class="domain smalltext">Augmented Reality</div>
+            <div class="pro-title pt-2">
+              <img src="/assets/AR CASCA.png" alt="" class="comlogo" />
+            </div>
+            <div class="pro-tech pt-2">Future of Car Companies</div>
+            <div class="pro-desc pt-3">
+              AR-CASCA Car Showroom would provide a highly realistic
+              visualization of the luxury vehicle, bringing the automotive
+              showroom on a platterto the customer.
+            </div>
+            <div class="pro-links mt-5">
+              <a href="" class="probtn">Know More</a>
+            </div>
+            <div class="pro-skills mt-5"></div>
+          </div>
+        </div>
+        <button
+          onclick="window.open('https://github.com/purnima143', '_blank')"
+          type="button"
+          data-target="_blank"
+          class="loadmore ml-lg-auto mr-lg-auto ml-md-auto mr-md-auto ml-sm-1 mr-sm-1 mt-lg-5 mt-md-4 mt-sm-2 smalltext"
+        >
+          Load More
+        </button>
+      </div>
+    </section>
+    <section id="uibanner">
+      <div
+        class="container mb-5 mt-5"
+        data-aos="zoom-out-up"
+        data-aos-offset="500"
+      >
+        <div class="row myuicard">
+          <div class="col-lg-4">
+            <h1 class="uititle">
+              Everything is designed. Few things are designed well.
+            </h1>
+            <div class="pro-desc pt-3">
+              I always try to think up design work that is clean, focused and
+              inspiring to others. I enjoy turning complex problems into simple,
+              beautiful and intutive designs.
+            </div>
+            <div class="pro-links mt-5">
+              <a
+                href="https://www.behance.net/purnimasharma1"
+                class="probtn"
+                target="_blank"
+                >Explore more</a
               >
             </div>
-            <div class="pro-skills mt-5">
-              <img src="./assets/html-5.png" alt="" class="skillimg" />
-              <img src="./assets/css-3.png" alt="" class="skillimg" />
-              <img src="./assets/js (1).png" alt="" class="skillimg" />
+          </div>
+          <div class="col-lg-8 p-lg-2 overflow-hidden boxui">
+            <div class="container banner">
+              <div class="row">
+                <div
+                  class="col-lg-3 col-sm-6 col-md-6 m-2 colui"
+                  data-aos="zoom-in-up"
+                >
+                  <a
+                    href="https://www.behance.net/purnimasharma1"
+                    class="uicard"
+                  >
+                    <img src="/assets/ui1.png" alt="" class="uidesign" />
+                  </a>
+                </div>
+                <div
+                  class="col-lg-3 col-sm-6 col-md-6 m-2 colui"
+                  data-aos="zoom-in-up"
+                >
+                  <a
+                    href="https://www.behance.net/purnimasharma1"
+                    class="uicard"
+                  >
+                    <img src="/assets/ui2.png" alt="" class="uidesign" />
+                  </a>
+                </div>
+                <div
+                  class="col-lg-3 col-sm-6 col-md-6 m-2 colui"
+                  data-aos="zoom-in-up"
+                >
+                  <a
+                    href="https://www.behance.net/purnimasharma1"
+                    class="uicard"
+                  >
+                    <img src="/assets/ui3.png" alt="" class="uidesign" />
+                  </a>
+                </div>
+              </div>
+
+              <div class="row">
+                <div
+                  class="col-lg-3 col-sm-6 col-md-6 m-2 colui"
+                  data-aos="zoom-in-up"
+                >
+                  <a
+                    href="https://www.behance.net/purnimasharma1"
+                    class="uicard"
+                  >
+                    <img src="/assets/ui4.png" alt="" class="uidesign" />
+                  </a>
+                </div>
+                <div
+                  class="col-lg-3 col-sm-6 col-md-6 m-2 colui"
+                  data-aos="zoom-in-up"
+                >
+                  <a
+                    href="https://www.behance.net/purnimasharma1"
+                    class="uicard"
+                  >
+                    <img src="/assets/ui5.png" alt="" class="uidesign" />
+                  </a>
+                </div>
+                <div
+                  class="col-lg-3 col-sm-6 col-md-6 m-2 colui"
+                  data-aos="zoom-in-up"
+                >
+                  <a
+                    href="https://www.behance.net/purnimasharma1"
+                    class="uicard"
+                  >
+                    <img src="/assets/ui6.png" alt="" class="uidesign" />
+                  </a>
+                </div>
+              </div>
+              <div class="row">
+                <div
+                  class="col-lg-3 col-sm-6 col-md-6 m-2 colui"
+                  data-aos="zoom-in-up"
+                >
+                  <a
+                    href="https://www.behance.net/purnimasharma1"
+                    class="uicard"
+                  >
+                    <img src="/assets/ui10.png" alt="" class="uidesign" />
+                  </a>
+                </div>
+                <div
+                  class="col-lg-3 col-sm-6 col-md-6 m-2 colui"
+                  data-aos="zoom-in-up"
+                >
+                  <a
+                    href="https://www.behance.net/purnimasharma1"
+                    class="uicard"
+                  >
+                    <img src="/assets/ui8.png" alt="" class="uidesign" />
+                  </a>
+                </div>
+                <div
+                  class="col-lg-3 col-sm-6 col-md-6 m-2 colui"
+                  data-aos="zoom-in-up"
+                >
+                  <a
+                    href="https://www.behance.net/purnimasharma1"
+                    class="uicard"
+                  >
+                    <img src="/assets/ui11.png" alt="" class="uidesign" />
+                  </a>
+                </div>
+              </div>
+              <div class="row">
+                <div
+                  class="col-lg-3 col-sm-6 col-md-6 m-2 colui"
+                  data-aos="zoom-in-up"
+                >
+                  <a
+                    href="https://www.behance.net/purnimasharma1"
+                    class="uicard"
+                  >
+                    <img src="/assets/ui10.png" alt="" class="uidesign" />
+                  </a>
+                </div>
+                <div
+                  class="col-lg-3 col-sm-6 col-md-6 m-2 colui"
+                  data-aos="zoom-in-up"
+                >
+                  <a
+                    href="https://www.behance.net/purnimasharma1"
+                    class="uicard"
+                  >
+                    <img src="/assets/ui8.png" alt="" class="uidesign" />
+                  </a>
+                </div>
+
+                <div
+                  class="col-lg-3 col-sm-6 col-md-6 m-2 colui"
+                  data-aos="zoom-in-up"
+                >
+                  <a
+                    href="https://www.behance.net/purnimasharma1"
+                    class="uicard"
+                  >
+                    <img src="/assets/ui9.png" alt="" class="uidesign" />
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <button class="loadmore ml-auto mr-auto mt-5 smalltext">
-          Load More
-        </button>
-        <!-- <img src="./assets/bg1.png" alt="" /> -->
       </div>
     </section>
     <div class="container line1"></div>
@@ -228,10 +387,17 @@
           Know more <span class="stroke">about</span> me
         </h1> -->
         <div class="row skillbox mt-5">
-          <div class="col-lg-3 col-md-6 col-sm-12 smalltext">
+          <div
+            class="col-lg-3 col-md-6 col-sm-12 smalltext"
+            data-aos="zoom-out-up"
+          >
             what skills I have
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
+          <div
+            class="col-lg-4 col-md-6 col-sm-12"
+            data-aos="zoom-out-up"
+            data-aos-offset="500"
+          >
             <div class="skilltitle">Design</div>
             <ul class="skillcol">
               <li>Wireframing & Prototyping</li>
@@ -241,7 +407,11 @@
               <li>Adobe XD</li>
             </ul>
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div
+            class="col-lg-3 col-md-6 col-sm-12"
+            data-aos="zoom-out-up"
+            data-aos-offset="500"
+          >
             <div class="skilltitle">Web Development</div>
             <ul class="skillcol">
               <li>HTML</li>
@@ -251,7 +421,11 @@
               <li>MySQL</li>
             </ul>
           </div>
-          <div class="col-lg-2 col-md-6 col-sm-12">
+          <div
+            class="col-lg-2 col-md-6 col-sm-12"
+            data-aos="zoom-out-up"
+            data-aos-offset="500"
+          >
             <div class="skilltitle">Others</div>
             <ul class="skillcol">
               <li>Github</li>
@@ -278,18 +452,32 @@
       <div class="container contactlink">
         <div class="row">
           <div class="col col-lg-4 col-md-2 col-sm-6">
-            <img src="/assets/logo.png" class="contactlogo" />
+            <a href="#"><img src="/assets/logo.png" class="contactlogo" /></a>
           </div>
           <div class="col col-lg-4 col-md-6 col-sm-6 contactmedia">
-            <a href="" class="linked"
+            <a
+              href="https://www.linkedin.com/in/purnima-sharma-212106158/"
+              class="linked"
               ><i class="fa-brands fa-linkedin-in"></i
             ></a>
-            <a href="" class="github"><i class="fa-brands fa-github"></i></a>
-            <a href="" class="twitter"><i class="fa-brands fa-twitter"></i></a>
-            <a href="" class="behance"><i class="fa-brands fa-behance"></i></a>
+            <a href="https://github.com/purnima143" class="github"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a href="https://twitter.com/purnima_sde" class="twitter"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a href="https://www.behance.net/purnimasharma1" class="behance"
+              ><i class="fa-brands fa-behance"></i
+            ></a>
           </div>
           <div class="col col-lg-4 col-md-4 col-sm-6 contactmail">
-            purnimasharma747359@gmail.com
+            <i class="fa-regular fa-envelope"></i>
+            <a
+              href="mailto:purnimasharma@gmail.com"
+              target="_blank"
+              class="email"
+              >purnimasharma747359@gmail.com</a
+            >
           </div>
         </div>
       </div>
@@ -298,7 +486,10 @@
       Copywrite <i class="fa-regular fa-copyright"></i> 2022 Created by Purnima
       Sharma. All rights reserved
     </footer>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
