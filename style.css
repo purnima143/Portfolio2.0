@@ -17,7 +17,7 @@ p {
   font-family: "Red Hat Display", sans-serif;
 }
 #about, #project ,#uibanner{
-  margin: 5% 0%;
+  margin: 4% 0%;
 }
 
 /** SCROLLL**/
@@ -73,7 +73,7 @@ html {
 }
 #hero,
 #project {
-  padding: 8%;
+  padding: 5%;
 }
 
 .maintext {
