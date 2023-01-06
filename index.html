@@ -103,6 +103,7 @@
     <title>Purnima Sharma</title>
   </head>
   <body>
+    <div id="preloader"></div>
     <!-- NAVBAR SECTION -->
     <section id="header">
       <div class="container">
@@ -153,8 +154,8 @@
         <div class="content" data-aos="zoom-in" data-target="500">
           <p class="intro">Hi👋! I’m Purnima Sharma</p>
           <h1 class="maintext">
-           <span class="stroke">Developer</span>, designer, open source contributor and 
-            <span class="stroke">passionate </span>learner.
+            <span class="stroke">Developer</span>, designer, open source
+            contributor and <span class="stroke">passionate </span>learner.
           </h1>
           <div class="row mt-5 contactbox">
             <div class="col-lg-9 col-md-8 col-sm-12">
@@ -216,7 +217,12 @@
               design shots.
             </div>
             <div class="pro-links mt-5">
-              <a href="" class="probtn">Know More</a>
+              <a
+                href="https://github.com/purnima143/Desgem-Design-Portal"
+                class="probtn"
+                target="_blank"
+                >Know More</a
+              >
             </div>
             <div class="pro-skills mt-5"></div>
           </div>
@@ -238,12 +244,17 @@
               CSS and Bootstrap and hosted it in Github.
             </div>
             <div class="pro-links mt-5">
-              <a href="" class="probtn">Know More</a>
+              <a
+                href="https://github.com/purnima143/Incognito-Community"
+                class="probtn"
+                target="_blank"
+                >Know More</a
+              >
             </div>
             <div class="pro-skills mt-5"></div>
           </div>
         </div>
-   <div class="row mt-5" data-aos="fade-up" data-aos-offset="400">
+        <div class="row mt-5" data-aos="fade-up" data-aos-offset="400">
           <div class="col-lg-6 col-sm-12" data-aos="zoom-in-up">
             <img src="./assets/7.png" alt="project" class="imgpro" />
           </div>
@@ -259,7 +270,12 @@
               top languages used and many more charts.
             </div>
             <div class="pro-links mt-5">
-              <a href="" class="probtn">Know More</a>
+              <a
+                href="https://github.com/purnima143/DevProfile"
+                class="probtn"
+                target="_blank"
+                >Know More</a
+              >
             </div>
             <div class="pro-skills mt-5"></div>
           </div>
@@ -281,7 +297,12 @@
               showroom on a platterto the customer.
             </div>
             <div class="pro-links mt-5">
-              <a href="" class="probtn">Know More</a>
+              <a
+                href="https://github.com/purnima143/AR-Car"
+                class="probtn"
+                target="_blank"
+                >Know More</a
+              >
             </div>
             <div class="pro-skills mt-5"></div>
           </div>
@@ -578,6 +599,12 @@
       Copywrite <i class="fa-regular fa-copyright"></i> 2022 Created by Purnima
       Sharma. All rights reserved
     </footer>
+    <script>
+      var loader = document.getElementById("preloader");
+      window.addEventListener("load", function () {
+        loader.style.display = "none";
+      });
+    </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
