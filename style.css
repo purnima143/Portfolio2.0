@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800&display=swap");
-
 * {
   margin: 0;
   outline: 0;
@@ -7,7 +5,7 @@
 }
 
 body {
-  background: url(./assets/newbgs.png);
+  background: url(./assets/background.webp);
   background-size: 100%;
   background-repeat: no-repeat;
   overflow-x: hidden !important;
@@ -140,7 +138,7 @@ html {
   background-color: #f6f6f6;
 }
 .imgpro {
-  max-width: 550px;
+  width: 100%;
   border-radius: 20px;
   animation: zoom 5s;
   transition: all 5ms ease-in-out;
@@ -381,7 +379,8 @@ footer {
   color: white;
 }
 .uidesign {
-  width: 170px;
+  width: 100%;
+  height: 100%;
   border-radius: 10px;
 }
 #uibanner .col-lg-4 {
