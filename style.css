@@ -393,3 +393,9 @@ footer {
   position: fixed;
   z-index: 120;
 }
+.pro-skills {
+  text-transform: capitalize;
+  color: #000000;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
