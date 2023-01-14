@@ -15,7 +15,6 @@ p {
   font-family: "Red Hat Display", sans-serif;
 }
 #about,
-#project,
 #uibanner {
   margin: 4% 0%;
 }
@@ -398,4 +397,26 @@ footer {
   color: #000000;
   font-weight: 500;
   letter-spacing: 1px;
+}
+.card-pic {
+  width: 100%;
+}
+#project-two .pro-desc {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+#project-two p {
+  font-size: 1rem !important;
+}
+#project-two {
+  margin-bottom: 10%;
+}
+#project-two .card-pic {
+  border-radius: 20px;
+}
+#project-two .probtn {
+  margin-top: 5%;
+}
+.probtn {
+  background-color: white;
 }
